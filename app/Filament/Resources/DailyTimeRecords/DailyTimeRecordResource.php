@@ -81,9 +81,5 @@ class DailyTimeRecordResource extends Resource
         return $query;
     }
 
-      public static function getNavigationBadge(): ?string
-    {
-        return static::getModel()::count();
-    }
 
 }

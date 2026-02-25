@@ -22,22 +22,22 @@ class DailyTimeRecordsTable
                     ->date()
                     ->sortable(),
                 TextColumn::make('shift1_time_in')
-                    ->time()
+                    ->time('h:i A') // Changed this
                     ->sortable(),
                 TextColumn::make('shift1_time_out')
-                    ->time()
+                    ->time('h:i A') // Changed this
                     ->sortable(),
                 TextColumn::make('shift2_time_in')
-                    ->time()
+                     ->time('h:i A') // Changed this
                     ->sortable(),
                 TextColumn::make('shift2_time_out')
-                    ->time()
+                     ->time('h:i A') // Changed this
                     ->sortable(),
                 TextColumn::make('shift3_time_in')
-                    ->time()
+                      ->time('h:i A') // Changed this
                     ->sortable(),
                 TextColumn::make('shift3_time_out')
-                    ->time()
+                     ->time('h:i A') // Changed this
                     ->sortable(),
                 TextColumn::make('overtime_hours')
                     ->numeric()
